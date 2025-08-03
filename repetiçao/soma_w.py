@@ -1,6 +1,6 @@
 soma = int(0)
 cont = int(0)
-resp = str(input(""))
+resp = 's'
 
 while (resp == 's'):
     n = int(input("Digite o valor: "))

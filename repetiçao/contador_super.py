@@ -5,7 +5,7 @@ print("MENU")
 print("[1] De 1 a 10.")
 print("[2] De 10 a 1.")
 print("[3] Sair.")
-opcoes = int(input("Qual escolhe?: "))
+opcoes = 0
 
 
 
