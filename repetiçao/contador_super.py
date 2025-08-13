@@ -28,4 +28,4 @@ while (opcoes != 3):
     elif opcoes == 3:
 
         print("Contador finalizado")
-        break
+    
