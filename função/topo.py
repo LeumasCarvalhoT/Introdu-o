@@ -5,23 +5,25 @@ pesado = 0
 import os
 def topo():
  os.system('cls')
+ print("----------------------------------")
+ print("      DETECTOR DE PESADO")
  print("Maior peso até então: ",mai,"Kg")
+ print("----------------------------------")
 
+ 
 
     
 
-print("----------------------------------")
-print("      DETECTOR DE PESADO")
-print("Maior peso até então: ",mai,"Kg")
-print("----------------------------------")
-
-for i in range(1, 3):
+topo()
+for i in range(1, 4):
     n = str(input("Digite o nome da pessoa: "))
     p = float(input("DIgite o peso dela: "))
 
     if (p >= mai):
         mai = p
         pesado = n 
-    topo()  
+    topo()
+
+os.system('cls')  
 
 print("A pessoa mais pesada foi ", pesado," com", mai)
