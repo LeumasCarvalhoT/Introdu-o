@@ -40,11 +40,11 @@ while contador != 5:
 
     rec = str(input("Onde jogará o [O]?: "))
 
-    if ((rec == '1') and (posicao[0][0]) == 'X') or ((rec == '1') and (posicao[0][0]) == 'O'):
+    if   ((rec == '1') and (posicao[0][0]) == 'X') or ((rec == '1') and (posicao[0][0]) == 'O'):
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [O]?: "))
 
-    elif ((rec == '2') and (posicao[0][1]) == 'X') or ((rec == '1') and (posicao[0][1]) == 'O'):
+    elif ((rec == '2') and (posicao[0][1]) == 'X') or ((rec == '2') and (posicao[0][1]) == 'O'):
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [O]?: "))
 
@@ -52,11 +52,11 @@ while contador != 5:
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [O]?: "))
 
-    elif ((rec == '4') and (posicao[1][0]) == 'X') or ((rec == '1') and (posicao[1][0]) == 'O'):
+    elif ((rec == '4') and (posicao[1][0]) == 'X') or ((rec == '4') and (posicao[1][0]) == 'O'):
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [O]?: "))
 
-    elif ((rec == '5') and (posicao[1][1]) == 'X') or ((rec == '1') and (posicao[1][1]) == 'O'):
+    elif ((rec == '5') and (posicao[1][1]) == 'X') or ((rec == '5') and (posicao[1][1]) == 'O'):
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [O]?: "))
 
@@ -131,7 +131,7 @@ while contador != 5:
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [X]?: "))
 
-    elif ((rec == '2') and (posicao[0][1]) == 'X') or ((rec == '1') and (posicao[0][1]) == 'O'):
+    elif ((rec == '2') and (posicao[0][1]) == 'X') or ((rec == '2') and (posicao[0][1]) == 'O'):
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [X]?: "))
 
@@ -139,11 +139,11 @@ while contador != 5:
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [X]?: "))
 
-    elif ((rec == '4') and (posicao[1][0]) == 'X') or ((rec == '1') and (posicao[1][0]) == 'O'):
+    elif ((rec == '4') and (posicao[1][0]) == 'X') or ((rec == '4') and (posicao[1][0]) == 'O'):
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [X]?: "))
 
-    elif ((rec == '5') and (posicao[1][1]) == 'X') or ((rec == '1') and (posicao[1][1]) == 'O'):
+    elif ((rec == '5') and (posicao[1][1]) == 'X') or ((rec == '5') and (posicao[1][1]) == 'O'):
         print("JOGADA INVÁLIDA!")
         rec = str(input("Onde jogará o [X]?: "))
 
